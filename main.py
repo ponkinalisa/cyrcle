@@ -25,7 +25,7 @@ class Project(QMainWindow):
                 x = 300
                 y = 300
                 r = choice(range(20, 200))
-                color = QColor(randint(0, 256), randint(0, 256), randint(0, 256))
+                color = QColor(255, 255, 0)
                 qp.setBrush(color)
                 qp.drawEllipse(QPointF(float(x), float(y)), r * 2, r * 2)
                 qp.end()
